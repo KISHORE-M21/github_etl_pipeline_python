@@ -24,3 +24,17 @@ The pipeline includes idempotent loading, pagination, rate‑limit handling, and
 ---
 
 ## 🛠️ Tools
+
+- **Python** (requests, Pandas, SQLite3)  
+- **SQL** for querying and analysis  
+- **GitHub API** for live data extraction  
+
+---
+
+## 📂 Repository Structure
+- `extract.py` – API connection and data extraction  
+- `transform.py` – Data cleaning and enrichment  
+- `load.py` – Database loading with idempotent logic  
+- `query.py` – Analytical SQL queries  
+- `orchestrate.py` – Full pipeline orchestration  
+- `requirements.txt` – Python dependencies  
